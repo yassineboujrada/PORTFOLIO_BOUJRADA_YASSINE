@@ -1,5 +1,5 @@
-import React from 'react'
-import './testi.css'
+import React from 'react';
+import './testi.css';
 
 export const Testi = () => {
   return (
