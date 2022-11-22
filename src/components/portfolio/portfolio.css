@@ -1,0 +1,63 @@
+.portfolio__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2.5rem;
+}
+
+.portfolio_item{
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+}
+
+.portfolio_item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.portfolio__item-img>img{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 5px;
+}
+
+.portfolio__item-img{
+    overflow: hidden;
+}
+
+.portfolio__item-img h3{
+    display: grid;
+    gap: 1rem;
+    /* margin-bottom: 1rem; */
+    margin-top: 10px;
+}
+
+/****************************** Devices In Medium Size ***********************/
+
+@media screen and (max-width:1024px){
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    .portfolio__item-img>img{
+        width: 90vw;
+        height: 40vh;
+        border-radius: 5px;
+    }
+}
+
+/****************************** Devices In Small Size ***********************/
+
+@media screen and (max-width:600px){
+    .portfolio__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .portfolio__item-img>img{
+        width: 90vw;
+        height: 40vh;
+        border-radius: 5px;
+    }
+}

@@ -11,7 +11,7 @@ export const Services = () => {
         <div className='container services_container'>
             <article className='service'>
                 <div className='service__head'>
-                    <h3>UX design</h3>
+                    <h3>Business Intellegence</h3>
                 </div>
 
                 <ul className='service__list'>
