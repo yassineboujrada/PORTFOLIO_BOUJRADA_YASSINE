@@ -1,10 +1,33 @@
-import React from 'react';
+import React,{useRef} from 'react';
 import './contact.css';
 import {MdOutlineEmail} from 'react-icons/md';
 import {RiMessengerLine} from 'react-icons/ri';
 import {BsWhatsapp} from 'react-icons/bs';
+import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export const Contact = () => {
+  const form = useRef();
+  const toastOptions = {
+    position: "bottom-right",
+    autoClose: 8000,
+    pauseOnHover: true,
+    draggable: true,
+    theme: "dark",
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_5spjrhs', 'template_eraa8cd', form.current, '9jSPC6oxUGnG5oK8E')
+      .then((result) => {
+        toast.success("Email was sending succefully", toastOptions);
+      }, (error) => {
+        toast.error("There's an error in sending", toastOptions);
+      });
+  };
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -34,7 +57,7 @@ export const Contact = () => {
           </article>
         </div>
 
-        <form action=''>
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder="Plz enter you're name ..." required/>
           <input type="email" name='email' placeholder="You're email ..." required/>
           <textarea type="message" name='msg' rows='7' placeholder="You're message ..." required></textarea>
@@ -42,6 +65,8 @@ export const Contact = () => {
         </form>
 
       </div>
+      <ToastContainer />
     </section>
+    
   )
 }
