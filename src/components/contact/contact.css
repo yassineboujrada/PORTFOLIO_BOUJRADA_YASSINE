@@ -1,0 +1,66 @@
+.contact__cotainer{
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12rem;
+}
+
+.contact__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact_option{
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2em;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+}
+
+.contact_option:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.contact_option-img{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+form{
+    margin-top:3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input{height: 7vh;}
+
+input,textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color:aliceblue;
+}
+
+/****************************** Devices In Medium Size ***********************/
+
+@media screen and (max-width:1024px){
+    .contact__cotainer{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/****************************** Devices In Small Size ***********************/
+
+@media screen and (max-width:600px){
+    .contact__cotainer{
+        width: var(--container-width-sm);
+    }
+}
