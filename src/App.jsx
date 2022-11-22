@@ -7,7 +7,6 @@ import {Header} from './components/header/Header';
 import {Nav} from './components/nav/Nav';
 import {Portfolio} from './components/portfolio/Portfolio';
 import {Services} from './components/services/Services';
-import {Testi} from './components/testi/Testi';
 
 export default function App() {
     return(
@@ -18,7 +17,6 @@ export default function App() {
             <Experiences />
             <Services />
             <Portfolio />
-            {/* <Testi /> */}
             <Contact />
             <Footer />
         </>
