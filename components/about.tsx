@@ -17,32 +17,35 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Get To Knew Me Better</SectionHeading>
+
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        After graduating with a bachelor's degree in{" "}
+        <span className="font-medium">Computer Science</span> ,and another degree in 
+        <span className="font-medium">Data Science and Business Intelligence 👨‍🎓🎓</span>.
+        I embarked on a journey to follow my programming passion. 
+        By challenging myself to create a lot of projects, I delved into the realm of 
+        <span className="font-medium">full-stack web development</span> and{" "}<span className="font-medium">machine learning field</span>,{" "}
+        in the other hand, I participated in <span className="underline">national coding competitions</span>. 
+        Among all the facets of programming,{" "}
+        <span className="italic">I find the problem-solving element</span> to be the most exhilarating. The sensation of unraveling a complex challenge 
+        and unveiling a solution is truly gratifying this sentiment 
+        <span className="italic">if I can say that all programmers love it</span>.{" "} 
+        
+        In terms of my core tech stack, I'm well-versed in {" "}
+        <span className="underline">ReactJs, Next.js, Flask, Django, and OracleDB</span>.{" "}
+        My proficiency extends to TypeScript, MongoDB, and diverse languages and frameworks, 
+        and I perpetually seek avenues to learn fresh technologies. Presently, {" "}
+        <span className="font-medium underline">I am actively seeking a full-time role as a Software Developer or Data Scientist</span>.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">
+          Beyond coding, my interests, playing video games, 
+          watching movies and 
+          sometimes reading books . 
+          I also enjoy learning new things. I am currently learning new language.{" "}
+        </span>
       </p>
     </motion.section>
   );
