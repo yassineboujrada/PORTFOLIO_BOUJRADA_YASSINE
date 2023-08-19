@@ -1,30 +1,76 @@
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
 
-## What you will learn
+## Technologies Used
 
-- Latest Next.js 13 features
-- Next.js App Router
-- Next.js Server Actions
-- Client & Server Components
-- TypeScript (Beginner & Intermediate)
-- Tailwind CSS
-- Context API
-- Advanced Animations with Framer Motion
-- React.Email & Resend
-- Custom React hooks
-- Fresh, modern UI design
-- Light & Dark mode
-- Responsive website
+The following technologies were used to create this portfolio:
 
-## Important
+- Next.js
+- React
+- Typescript
+- SCSS
+- Framer Motion
+- Kinsta
 
-If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://www.udemy.com/course/professional-javascript-course/?referralCode=0C1D5752923168BC87C2) and [Professional CSS](https://www.udemy.com/course/professional-css/?referralCode=4C3C08E82629E6B15752) courses.
 
-I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
 
-## Setup
+## 🛠 Installation & Set Up
 
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email
+
+1. Install dependencies
+
+   ```sh
+   yarn
+   ```
+
+2. Start the development server
+
+   ```sh
+   yarn dev
+   ```
+
+## 🚀 Building and Running for Production
+
+1. Generate a full static production build
+
+   ```sh
+   yarn build
+   ```
+
+1. Preview the site as it will appear once deployed
+
+   ```sh
+   yarn start
+   ```
+
+
+## 🎨 Color Reference
+
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| Navy           | `#0a192f` |
+| Light Navy     | `#112240` |
+| Lightest Navy  | `#233554` |
+| Slate          | `#8892b0` |
+| Light Slate    | `#a8b2d1` |
+| Lightest Slate | `#ccd6f6` |
+| White          | `#e6f1ff` |
+| Purple         | `#9d00ff` |
+
+
+
+## 🚀 Deployment on Kinsta:
+
+Kinsta is a leading cloud hosting provider that specializes in offering high-performance hosting solutions for applications and databases. With a global network of data centers, Kinsta provides reliable and scalable hosting services to businesses of all sizes, from startups to enterprises.
+
+In addition to their hosting services, Kinsta provides top-notch customer support with a team of WordPress and hosting experts available 24/7 to assist customers with any questions or issues they may encounter.
+
+With its high-performance hosting solutions, robust security measures, and exceptional customer support, Kinsta is a trusted choice for businesses looking for reliable and scalable hosting solutions for their applications and databases.
+
+Use the links below to get $20 worth of credits to get started.
+
+[Kinsta Application Hosting](https://kinsta.com/application-hosting/?utm_source=kishan&utm_medium=digital&utm_campaign=application-hosting&utm_content=blog)
+
+[Kinsta Database Hosting](https://kinsta.com/database-hosting/?utm_source=kishan&utm_medium=digital&utm_campaign=database-hosting&utm_content=blog)
+
+
+### This project was a part of my Youtube Channel. Check out the video to learn how to build this awesome portfolio from scratch and host the NEXT.JS Portfolio on Kinsta.
