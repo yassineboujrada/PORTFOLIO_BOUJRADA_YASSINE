@@ -84,14 +84,6 @@ function About() {
             Beyond coding, my interests, playing video games, watching movies and sometimes reading books .
             I also enjoy learning new things. I am currently learning new language.
           </p>
-          {/* <p className="about-grid-info-text">
-            Here are a few technologies I’ve been working with recently:
-          </p>
-          <ul className="about-grid-info-list">
-            {skillsData.map((skill) => (
-              <li className="about-grid-info-list-item" key={skill} >{skill}</li>
-            ))}
-          </ul> */}
         </div>
           <div className="about-grid-info">
             <p className="about-grid-info-text">
