@@ -9,64 +9,80 @@ function Projects() {
   const projectsData = [
     {
       image: "/project1.png",
-      projectName: "Pokedex",
-      projectLink: "https://netlify.com",
+      projectName: "3D VISION MESHWALKER",
+      projectLink: "https://github.com/yassineboujrada/3D_VISION_MESHWALKER",
       projectDescription:
-        "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
+        "The 3D_VISION with MESHWALKER Model is an advanced computer vision system that combines 3D object recognition and understanding with the power of the MESHWALKER model. It enables accurate identification and classification of 3D objects in a given scene, while also providing detailed insights into the spatial relationships between objects",
         projectTech1: [
           "React",
-          "Node.js",
-          "Firebase",
+          "Flask",
+          "Three.js",
         ],
         projectTech2: [
-          "React",
-          "Node.js",
-          "Firebase",
+          "Tensorflow",
+          "Deep Learning",
+          "MongoDB",
         ],
       projectExternalLinks: {
-        github: "",
+        github: "https://github.com/yassineboujrada/3D_VISION_MESHWALKER",
         externalLink: "",
       },
     },
     {
       image: "/project2.png",
       projectName: "Realtime Chat App",
-      projectLink: "https://netlify.com",
+      projectLink: "https://github.com/yassineboujrada/Chat_App",
       projectDescription:
         "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
         projectTech1: [
           "React",
           "Node.js",
-          "Firebase",
+          "MongoDB",
         ],
         projectTech2: [
-          "React",
-          "Node.js",
-          "Firebase",
+          "Socket.io",
         ],
       projectExternalLinks: {
-        github: "",
+        github: "https://github.com/yassineboujrada/Chat_App",
         externalLink: "",
       },
     },
     {
       image: "/project3.png",
-      projectName: "Netflix App",
-      projectLink: "https://netlify.com",
+      projectName: "3D CHAIR App",
+      projectLink: "https://github.com/yassineboujrada/3D_CHAIR",
       projectDescription:
-        "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
+        "The 3D Chair Animation project is an interactive web application developed using React.js and Three.js. It allows users to explore a 3D model of a chair and dynamically change its color in real-time.",
       projectTech1: [
         "React",
-        "Node.js",
-        "Firebase",
+        "Three.js",
+        "Vite.js",
       ],
       projectTech2: [
-        "React",
-        "Node.js",
-        "Firebase",
+        
       ],
       projectExternalLinks: {
-        github: "",
+        github: "https://github.com/yassineboujrada/3D_CHAIR",
+        externalLink: "",
+      },
+    },
+    {
+      image: "/project4.png",
+      projectName: "Stock Management Admin Dashboard App",
+      projectLink: "https://github.com/yassineboujrada/STOCK_MANAGEMENT_Admin_Dashboard",
+      projectDescription:
+        "Stock Management Admin Dashboard. The dashboard provides an intuitive interface for managing stock inventory, tracking product sales, and generating reports for Orders.",
+      projectTech1: [
+        "React",
+        "Spring Boot",
+        "Oracle DB",
+      ],
+      projectTech2: [
+        "Oracle Cloud",
+        "Design Patterns"
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/yassineboujrada/STOCK_MANAGEMENT_Admin_Dashboard",
         externalLink: "",
       },
     },

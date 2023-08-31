@@ -60,22 +60,14 @@ function About() {
         <div className="about-grid-info">
           <p className="about-grid-info-text">
             HI! My name is Boujrada yassine, I have a passion for creating websites and developing 
-            Machine Learning models that enhance the lives of others. My interest in development was 
-            sparked in 2020 when I see how sometimes can just a language save or change lives of people.
+            Machine Learning models that enhance the lives of others.
           </p>
           <p className="about-grid-info-text">
-            So After graduating with a bachelor&apos;s degree in Computer Science ,and another degree in 
-            Data Science and Business Intelligence 👨‍🎓🎓. I embarked on a journey to follow my programming passion. 
-            By challenging myself to create a lot of projects, I delved into the realm of full-stack web development 
-            and machine learning field, in the other hand, I participated in national coding competitions. 
-            Among all the facets of programming, I find the problem-solving element to be the most exhilarating. 
-            The sensation of unraveling a complex challenge and unveiling a solution is truly gratifying this 
-            sentiment if I can say that all programmers love it.
-          </p>
-          <p className="about-grid-info-text">
-            Additionally, I share my knowledge and passion with the world
-            through my YouTube channel, where I demonstrate how to build
-            full-stack applications.
+            So After graduating with a bachelor&apos;s degree in Computer Science ,and another degree in Data Science and Business Intelligence 👨‍🎓🎓.
+            I set out on a journey to pursue my programming passion. I ventured into the realms of full-stack web development and machine learning
+             by challenging myself to create a large number of projects, while also competing in national coding competitions. Among all aspects 
+             of programming, I find problem-solving to be the most exciting. The sense of unraveling a complex problem and revealing a solution 
+             is really pleasant, and I believe that all programmers share this sentiment.
           </p>
           <p className="about-grid-info-text">
             I am also working on a new project called&nbsp;
@@ -92,22 +84,25 @@ function About() {
             Beyond coding, my interests, playing video games, watching movies and sometimes reading books .
             I also enjoy learning new things. I am currently learning new language.
           </p>
-          <p className="about-grid-info-text">
+          {/* <p className="about-grid-info-text">
             Here are a few technologies I’ve been working with recently:
           </p>
           <ul className="about-grid-info-list">
             {skillsData.map((skill) => (
               <li className="about-grid-info-list-item" key={skill} >{skill}</li>
             ))}
-          </ul>
+          </ul> */}
         </div>
-        <div className="about-grid-photo">
-          <div className="overlay"></div>
-          <div className="overlay-border"></div>
-          <div className="about-grid-photo-container">
-            <Image src="/kishan.jpeg" alt="profile" fill />
+          <div className="about-grid-info">
+            <p className="about-grid-info-text">
+            Here are a few technologies I’ve been working with recently:
+            </p>
+            <ul className="about-grid-info-list">
+              {skillsData.map((skill) => (
+                <li className="about-grid-info-list-item" key={skill} >{skill}</li>
+              ))}
+            </ul>
           </div>
-        </div>
       </div>
     </motion.div>
   );
